@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "stockgpt"
+version = "0.1.0"
+description = ""
+authors = ["spotify2junkie <lsemarkluo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+redis = "^5.0.1"
+ta = "^0.11.0"
+streamlit = "^1.31.1"
+yfinance = "^0.2.36"
+pandas = "^2.2.0"
+openai = "^1.12.0"
+streamlit-pills = "^0.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
